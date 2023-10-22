@@ -1,0 +1,29 @@
+
+.singleMail{
+
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    border: 1px solid #dfe6e9;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background: #fff;
+    max-width: calc(100vw - 8rem);
+    cursor: pointer;
+     button{ 
+        background: transparent;
+        color: #E54065;
+        border: none;
+        font-size: 14px;
+        margin-left: 10px;
+        cursor: pointer;
+   
+     }
+
+    p{
+        font-size: 14px;
+        font-weight: 400;
+        margin: 0;
+    }
+}
